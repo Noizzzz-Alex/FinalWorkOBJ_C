@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		10B49D0E2B612589006D5878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B49D0D2B612589006D5878 /* main.m */; };
+		10B49D162B612882006D5878 /* ConsoleMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B49D152B612882006D5878 /* ConsoleMainMenu.m */; };
+		10B49D192B6128C8006D5878 /* SolutionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B49D182B6128C8006D5878 /* SolutionService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		10B49D0A2B612589006D5878 /* FinalWorkOBJ_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinalWorkOBJ_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B49D0D2B612589006D5878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10B49D142B612882006D5878 /* ConsoleMainMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleMainMenu.h; sourceTree = "<group>"; };
+		10B49D152B612882006D5878 /* ConsoleMainMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleMainMenu.m; sourceTree = "<group>"; };
+		10B49D172B6128C8006D5878 /* SolutionService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolutionService.h; sourceTree = "<group>"; };
+		10B49D182B6128C8006D5878 /* SolutionService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolutionService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				10B49D0D2B612589006D5878 /* main.m */,
+				10B49D172B6128C8006D5878 /* SolutionService.h */,
+				10B49D182B6128C8006D5878 /* SolutionService.m */,
+				10B49D142B612882006D5878 /* ConsoleMainMenu.h */,
+				10B49D152B612882006D5878 /* ConsoleMainMenu.m */,
 			);
 			path = FinalWorkOBJ_C;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B49D0E2B612589006D5878 /* main.m in Sources */,
+				10B49D162B612882006D5878 /* ConsoleMainMenu.m in Sources */,
+				10B49D192B6128C8006D5878 /* SolutionService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

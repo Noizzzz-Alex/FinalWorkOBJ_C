@@ -6,11 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
-int main(int argc, const char * argv[]) {
+#import "ConsoleMainMenu.h"
+int main(int argc, const char *argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        [ConsoleMainMenu menuStart];
     }
     return 0;
 }
